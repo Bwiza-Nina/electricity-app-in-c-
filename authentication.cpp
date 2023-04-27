@@ -35,7 +35,7 @@ int main(){
 			cout<<"Thank you for using our application"<<endl;
 			break;
 		default:
-			system(cls); //clear the screen
+			system("cls"); //clear the screen
 			cout<<"You have selected an invalid number, select from the given options \n"<<endl;
 			main();
 	}
@@ -87,8 +87,8 @@ void forgot(){
 	int option;
 	system("cls");
 	cout<<"\t\t\t You forgot the password? No worries \n";
-	cout<<"Press 1 to search your id by username: ";<<endl;
-	cout<<"Press 2 to go back to the main menu: ";<<endl;
+	cout<<"Press 1 to search your id by username: "<<endl;
+	cout<<"Press 2 to go back to the main menu: "<<endl;
 	cout<<"\t\t\t Enter your choice: ";
 	cin>>option;
 	switch(option){
